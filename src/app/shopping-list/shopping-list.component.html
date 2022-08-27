@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+            <app-shopping-edit></app-shopping-edit>
+            <hr>
+            <!-- <ul class="list-group" style="cursor: pointer;" *ngFor="let ingredient of ingredients">
+                {{ingredient.name}} {{ingredient.amount}}
+            </ul> -->
+
+            <ul class="list-group" style="cursor: pointer;">
+                <li class="list-group-item" *ngFor="let ingrdient of ingredients">
+                    {{ingrdient.name}}  -  {{ingrdient.amount}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
